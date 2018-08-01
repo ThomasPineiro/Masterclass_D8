@@ -1,6 +1,39 @@
-.is-fullarea{
+.is-fullarea {
     height: 100%;
-    width:100%;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
+}
+
+.is-fullheightme {
+    height: 100%;
+    max-height: 100%;
+}
+
+.is-fullwidth {
+    width: 100%;
+    max-width: 100%;
+}
+
+.flex-fullcnt{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.see-column{
+    border: 1px solid black;
+}
+
+.is-halfheight{
+    min-height: 50vh;
+}
+
+.is-threequarterheight{
+    min-height: 75vh;
+}
+
+.is-onequarterheight{
+    min-height: 25vh;
 }
